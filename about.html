@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Captain Rooter Emergency Plumbers, Chicago IL</title>
+  <meta name="description" content="About Captain Rooter Emergency Plumbers — a 24-hour plumbing company serving Chicago from West Town. Honest explanations, fast response.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="hazard" aria-hidden="true"></div>
+  <div class="emergency-bar">
+    Plumbing emergency? We're open 24 hours — <a href="tel:+17738230199">Call (773) 823-0199</a>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Captain Rooter<span class="brand-sub">Emergency Plumbers</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">☰</button>
+      <nav class="site-nav" id="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a class="nav-call" href="tel:+17738230199">(773) 823-0199</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="padding-bottom:3.5rem;">
+      <div class="hero-inner">
+        <p class="eyebrow reveal">Chicago, IL</p>
+        <h1 class="reveal">About <span class="accent">Captain Rooter</span></h1>
+        <p class="lede reveal">A 24-hour plumbing crew based in West Town, serving all of Chicago.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap prose">
+        <p>
+          Plumbing problems don't keep business hours — so neither do we. Captain Rooter
+          Emergency Plumbers runs around the clock from our shop at 1252 W Chicago Ave,
+          answering calls across the city at any hour, any day.
+        </p>
+        <p>
+          Our approach is simple: show up fast, find the real problem, and explain it
+          plainly before any work begins. Whether it's a sewer line check, gas pipe work,
+          or a toilet that picked the worst possible moment to fail, you'll know what's
+          wrong, what it takes to fix it, and what it costs — before we start.
+        </p>
+        <p>
+          Our technicians treat your home like their own: professional, concerned, and
+          determined to leave with results.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0;">
+      <div class="wrap center">
+        <p class="section-kicker">Why Captain Rooter</p>
+        <h2 class="section-title">What we stand for</h2>
+        <div class="card-grid" style="margin-top:2rem; text-align:left;">
+          <article class="service-card">
+            <span class="icon" aria-hidden="true">🕐</span>
+            <h3>Truly 24/7</h3>
+            <p>A real person answers and a real plumber comes — nights, weekends, holidays.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon" aria-hidden="true">🗣️</span>
+            <h3>Honest Explanations</h3>
+            <p>We walk you through the issue and your options. No mystery, no pressure.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon" aria-hidden="true">🏙️</span>
+            <h3>Chicago Proud</h3>
+            <p>Based in West Town, we know this city's buildings, pipes, and winters.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <h2>Need a plumber right now?</h2>
+      <p>We're already awake.</p>
+      <a class="btn" href="tel:+17738230199">Call (773) 823-0199</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h4>Captain Rooter</h4>
+        <p>1252 W Chicago Ave<br>Chicago, IL 60642</p>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <p>Open 24 hours<br>Every day of the year</p>
+      </div>
+      <div>
+        <h4>Emergency Line</h4>
+        <p><a href="tel:+17738230199">(773) 823-0199</a><br>Call any time</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© Captain Rooter Emergency Plumbers · Chicago, IL</div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector(".nav-toggle");
+    const nav = document.querySelector(".site-nav");
+    toggle.addEventListener("click", () => {
+      const open = nav.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", open);
+    });
+  </script>
+</body>
+</html>

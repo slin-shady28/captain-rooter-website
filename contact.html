@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Captain Rooter Emergency Plumbers, Chicago IL</title>
+  <meta name="description" content="Contact Captain Rooter Emergency Plumbers: 1252 W Chicago Ave, Chicago, IL 60642. Open 24 hours. Call (773) 823-0199.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="hazard" aria-hidden="true"></div>
+  <div class="emergency-bar">
+    Plumbing emergency? We're open 24 hours — <a href="tel:+17738230199">Call (773) 823-0199</a>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Captain Rooter<span class="brand-sub">Emergency Plumbers</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">☰</button>
+      <nav class="site-nav" id="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+          <li><a class="nav-call" href="tel:+17738230199">(773) 823-0199</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="padding-bottom:3.5rem;">
+      <div class="hero-inner">
+        <p class="eyebrow reveal">We're ready when you are</p>
+        <h1 class="reveal">Contact <span class="accent">Us</span></h1>
+        <p class="lede reveal">The fastest way to reach us is a phone call — 24 hours a day.</p>
+        <div class="btn-row reveal">
+          <a class="btn btn-call" href="tel:+17738230199">(773) 823-0199</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="contact-block">
+              <h3>Phone</h3>
+              <p><a href="tel:+17738230199">(773) 823-0199</a><br>Answered 24/7 — call any time</p>
+            </div>
+            <div class="contact-block">
+              <h3>Address</h3>
+              <p>1252 W Chicago Ave<br>Chicago, IL 60642</p>
+            </div>
+            <div class="contact-block">
+              <h3>Hours</h3>
+              <p>Open 24 hours<br>Every day, including holidays</p>
+            </div>
+            <div class="contact-block">
+              <h3>Service Area</h3>
+              <p>Chicago and surrounding neighborhoods</p>
+            </div>
+          </div>
+
+          <iframe
+            class="map-frame"
+            src="https://www.google.com/maps?q=1252+W+Chicago+Ave,+Chicago,+IL+60642&output=embed"
+            title="Map showing Captain Rooter Emergency Plumbers at 1252 W Chicago Ave, Chicago, IL"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <h2>Don't wait on a leak</h2>
+      <p>Small drips become big bills. Call now and we'll talk you through it.</p>
+      <a class="btn" href="tel:+17738230199">Call (773) 823-0199</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h4>Captain Rooter</h4>
+        <p>1252 W Chicago Ave<br>Chicago, IL 60642</p>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <p>Open 24 hours<br>Every day of the year</p>
+      </div>
+      <div>
+        <h4>Emergency Line</h4>
+        <p><a href="tel:+17738230199">(773) 823-0199</a><br>Call any time</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© Captain Rooter Emergency Plumbers · Chicago, IL</div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector(".nav-toggle");
+    const nav = document.querySelector(".site-nav");
+    toggle.addEventListener("click", () => {
+      const open = nav.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", open);
+    });
+  </script>
+</body>
+</html>

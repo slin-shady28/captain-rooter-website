@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services — Captain Rooter Emergency Plumbers, Chicago IL</title>
+  <meta name="description" content="Emergency plumbing, sewer & drain, gas pipe work, water heaters, toilets & fixtures, leak repair. 24-hour plumber in Chicago. Call (773) 823-0199.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="hazard" aria-hidden="true"></div>
+  <div class="emergency-bar">
+    Plumbing emergency? We're open 24 hours — <a href="tel:+17738230199">Call (773) 823-0199</a>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Captain Rooter<span class="brand-sub">Emergency Plumbers</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">☰</button>
+      <nav class="site-nav" id="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html" aria-current="page">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a class="nav-call" href="tel:+17738230199">(773) 823-0199</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="padding-bottom:3.5rem;">
+      <div class="hero-inner">
+        <p class="eyebrow reveal">Residential &amp; commercial</p>
+        <h1 class="reveal">Our <span class="accent">Services</span></h1>
+        <p class="lede reveal">If water, gas, or waste moves through a pipe, we work on it.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="card-grid">
+          <article class="service-card">
+            <span class="icon" aria-hidden="true">🚨</span>
+            <h3>24/7 Emergency Plumbing</h3>
+            <p>Burst pipes, flooding, sewage backups, no hot water — call any hour and we'll dispatch a technician fast.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon" aria-hidden="true">🕳️</span>
+            <h3>Sewer Line Service</h3>
+            <p>Camera inspections, sewer line checks, rodding, and repair — find the real problem before digging.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon" aria-hidden="true">💧</span>
+            <h3>Drain Cleaning</h3>
+            <p>Kitchen, bath, floor drains, and main lines cleared of clogs, roots, and buildup.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon" aria-hidden="true">🔥</span>
+            <h3>Gas Pipe Work</h3>
+            <p>Gas line installation, repair, rerouting, and leak detection — done safely and to Chicago code.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon" aria-hidden="true">♨️</span>
+            <h3>Water Heaters</h3>
+            <p>Repair and replacement of tank and tankless water heaters, sized right for your home.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon" aria-hidden="true">🚽</span>
+            <h3>Toilets &amp; Fixtures</h3>
+            <p>Toilet installation and repair, faucets, sinks, tubs, and shower valves.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon" aria-hidden="true">🔍</span>
+            <h3>Leak Detection &amp; Repair</h3>
+            <p>Hidden leaks found and fixed before they turn into water damage and mold.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon" aria-hidden="true">🏗️</span>
+            <h3>Repiping &amp; Remodels</h3>
+            <p>Whole-home repiping and rough-in plumbing for kitchen and bath remodels.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon" aria-hidden="true">❄️</span>
+            <h3>Frozen Pipe Service</h3>
+            <p>Chicago winters are brutal on pipes. We thaw, repair, and protect against the next freeze.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <h2>Not sure what's wrong?</h2>
+      <p>Describe the symptoms — we'll explain the issue and your options before any work begins.</p>
+      <a class="btn" href="tel:+17738230199">Call (773) 823-0199</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h4>Captain Rooter</h4>
+        <p>1252 W Chicago Ave<br>Chicago, IL 60642</p>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <p>Open 24 hours<br>Every day of the year</p>
+      </div>
+      <div>
+        <h4>Emergency Line</h4>
+        <p><a href="tel:+17738230199">(773) 823-0199</a><br>Call any time</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© Captain Rooter Emergency Plumbers · Chicago, IL</div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector(".nav-toggle");
+    const nav = document.querySelector(".site-nav");
+    toggle.addEventListener("click", () => {
+      const open = nav.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", open);
+    });
+  </script>
+</body>
+</html>
